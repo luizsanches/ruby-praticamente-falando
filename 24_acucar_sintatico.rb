@@ -1,6 +1,6 @@
-puts 'Açúcar sintático (Legibilidade)'
+puts "Acucar sintatico (Legibilidade)\n\n"
 
-# quando você faz
+puts 'Quando voce faz'
 puts calculo = 2 + 3
 puts apelido = 'Farol'
 
@@ -10,7 +10,8 @@ end
 fulana = Mulher.new
 puts fulana.nome = 'Ana'
 
-# Ruby está fazendo
+
+puts "\nRuby esta fazendo"
 puts calculo = 2.+(3)
 puts apelido = String.new('Farol')
 

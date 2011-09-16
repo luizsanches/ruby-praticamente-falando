@@ -1,4 +1,5 @@
 puts 'Numerics'
+puts
 
 puts sou_inteiro = 101
 

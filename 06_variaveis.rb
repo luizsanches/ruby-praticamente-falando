@@ -1,6 +1,7 @@
-puts 'Variáveis'
+puts 'Variaveis'
+puts
 
-puts local = 'meu escopo é local'
+puts local = 'meu escopo e local'
 
 puts @instancia = 'sirvo ao objeto instanciado'
 

@@ -1,6 +1,5 @@
-# teste_calculadora.rb
 require 'test/unit'
-require 'calculadora'
+require './calculadora'
 
 class TesteCalculadora < Test::Unit::TestCase
   def setup
@@ -11,6 +10,12 @@ class TesteCalculadora < Test::Unit::TestCase
   end
   def test_subtrai
     assert_equal(2, @calc.subtrai(5, 2), "5 - 2 = 3")
+  end
+  def test_multiplica
+    assert_equal(10, @calc.multiplica(5, 2), "5 * 2 = 10")
+  end
+  def test_divisao
+    assert_equal(10, @calc.divide(20, 2), "20 / 2 = 10")
   end
   def teardown
     @calc = nil

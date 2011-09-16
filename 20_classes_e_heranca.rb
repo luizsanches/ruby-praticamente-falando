@@ -1,4 +1,4 @@
-puts 'Classes'
+puts "Classes e Heranca\n\n"
 
 class Pessoa
   def initialize(nome) #construtor
@@ -19,7 +19,11 @@ class Homem < Pessoa
 end
 
 # instanciando um objeto
-fulano = Homem.new('Ambrósio')
+fulano = Homem.new('Ambrosio')
+
 puts fulano.nome
+puts
+
 fulano.nome = 'Vanderlucio'
+
 puts fulano.nome

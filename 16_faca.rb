@@ -1,13 +1,13 @@
-puts 'Faça'
+puts "Faca\n"
 
-puts 'Enquanto'
+puts "\nEnquanto"
 w = 1
 while w < 5
   puts w
   w += 1 # em Ruby não tem ++ nem --
 end
 
-puts 'Até que'
+puts "\nAte que"
 u = 0
 until u == 5
   puts u

@@ -1,4 +1,4 @@
-puts 'Módulos'
+puts "Modulos\n\n"
 
 class Ave
   def voar
@@ -7,15 +7,17 @@ class Ave
 end
 sabia = Ave.new
 puts sabia.voar
+puts
 
 module Mamifero
   def mergulhar
-    'prende a respiração'
+    'prende a respiracao'
   end
   module_function :mergulhar
   public :mergulhar
 end
 puts Mamifero.mergulhar
+puts
 
 class AveSelvagem < Ave
   include Mamifero
@@ -23,8 +25,9 @@ end
 pato = AveSelvagem.new
 puts pato.voar
 puts pato.mergulhar
+puts
 
-# Mais um pouco de módulos
+puts 'Mais um pouco de modulos'
 puts Math::PI
 puts Math.sqrt(9)
 puts Math.class #Module

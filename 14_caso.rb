@@ -1,15 +1,18 @@
 puts 'Caso'
+puts
+
 menu = :saldo
 case menu
 when :promocoes
-  puts 'nossas promoções'
+  puts 'nossas promocoes'
 when :creditos
-  puts 'inserir créditos'
+  puts 'inserir creditos'
 when :saldo
   puts 'consultar saldo'
 else
-  puts 'ouça mais música'
+  puts 'ouca mais musica'
 end
+puts
 
 opcao = 15
 faixa =
@@ -19,6 +22,6 @@ faixa =
   when 11..20
     "de 11 a 20"
   else
-    "não encontrada"
+    "nao encontrada"
   end
 puts "Faixa #{faixa}"

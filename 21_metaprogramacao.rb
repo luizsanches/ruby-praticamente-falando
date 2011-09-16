@@ -1,4 +1,4 @@
-puts 'Classes'
+puts "Metaprogramacao\n\n"
 
 class Pessoa
   attr_accessor :nome
@@ -16,8 +16,14 @@ class Homem < Pessoa
 end
 
 # instanciando objetos
-fulano = Homem.new('Ambrósio')
+fulano = Homem.new('Ambrosio')
+
 sicrano = Homem.new('Mariano')
+
 puts fulano.nome
+puts
+
 puts sicrano.nome
+puts
+
 puts Pessoa::qtde_pessoas
