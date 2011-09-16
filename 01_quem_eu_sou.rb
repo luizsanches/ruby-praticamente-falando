@@ -5,7 +5,7 @@ farol = {
   :nome => 'Luiz Sanches',
   :email => 'luizgrsanches@gmail.com',
   :blog => 'luizsanches.wordpress.com',
-  :twitter => '@luizgrsanches'
+  :github => 'github.com/luizsanches'
 }.each {|chave, valor| puts "#{chave}: #{valor}"}
 
 puts
